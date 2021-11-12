@@ -26,7 +26,7 @@ if ( userAge < 18 ) {
 
 }
 
-finalPrice = price - discountPrice;
+const finalPrice = price - discountPrice;
 
 //OUTPUT
 //print final price
