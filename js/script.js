@@ -16,7 +16,7 @@ const userAge = parseInt( prompt('Qual è l\ età del passeggero?') );
 const price = userKilometre * 0.21;
 
 //price and discount comparison based on the age of the passenger
-let discountPrice = '';
+let discountPrice = 0;
 
 if ( userAge < 18 ) {
     discountPrice = ( price * 20 ) / 100;
